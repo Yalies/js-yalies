@@ -1,0 +1,27 @@
+{
+  "name": "mebots",
+  "version": "1.1.0",
+  "description": "Wrapper for the Yalies API (see yalies.io)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Yalies/js-yalies.git"
+  },
+  "keywords": [
+    "yale",
+    "yalies",
+    "api"
+  ],
+  "author": "Erik Boesen",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Yalies/js-yalies/issues"
+  },
+  "homepage": "https://github.com/Yalies/js-yalies#readme",
+  "dependencies": {
+    "node-fetch": "^2.6.1"
+  }
+}
