@@ -14,7 +14,7 @@ Import into your project:
 const yalies = require('yalies');
 // Alternative:
 const API = require('yalies').API;
-// If you choose this option, simply instantiate the bot as `new API(...)` below.
+// If you choose this option, simply instantiate as `new API(...)` below.
 ```
 
 Instantiate the API by passing your API key:
