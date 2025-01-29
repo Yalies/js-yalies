@@ -1,6 +1,6 @@
 {
   "name": "yalies",
-  "version": "0.1.0",
+  "version": "2.0.0",
   "description": "Wrapper for the Yalies API (see yalies.io)",
   "main": "index.js",
   "scripts": {
@@ -22,6 +22,6 @@
   },
   "homepage": "https://github.com/Yalies/js-yalies#readme",
   "dependencies": {
-    "node-fetch": "^2.6.1"
+    "node-fetch": "^2.7.0"
   }
 }
