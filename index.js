@@ -1,14 +1,13 @@
 const fetch = require('node-fetch');
 
-HOST = 'https://yalies.io';
-API_ROOT = '/api/'
+const API_BASE_URL = 'https://api.yalies.io/v2/';
 
 class API {
     constructor(key) {
         this.key = key;
     }
     post(endpoint, body) {
-        let url = new URL(HOST + API_ROOT + endpoint);
+        let url = new URL(API_BASE_URL + endpoint);
         return fetch(url, {
             method: 'POST',
             headers: {
